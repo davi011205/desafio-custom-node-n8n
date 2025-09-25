@@ -24,12 +24,6 @@ export class Random implements INodeType {
 		},
 		inputs: ['main'],
 		outputs: ['main'],
-		credentials: [
-			{
-				name: 'RandomApi',
-				required: true,
-			},
-		],
 		properties: [
 			{
 				displayName: 'Minimo',
